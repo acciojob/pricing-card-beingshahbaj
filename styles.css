@@ -1,1 +1,44 @@
 /*  your css code here. If applicable */
+  .pricing-card {
+            width: 300px;
+            padding: 20px;
+            background-color: #f5f5f5;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        /* Image */
+        .pricing-image {
+            width: 100%;
+            max-width: 150px;
+            display: block;
+            margin: 0 auto 20px;
+        }
+
+        /* Title */
+        .pricing-title {
+            font-size: 24px;
+            font-weight: bold;
+            margin: 0;
+        }
+
+        /* Pricing Information */
+        .pricing-price {
+            font-size: 20px;
+            margin: 10px 0;
+        }
+
+        /* Description */
+        .pricing-description {
+            margin: 10px 0;
+        }
+
+        /* Buy Now Button */
+        .buy-now-button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
